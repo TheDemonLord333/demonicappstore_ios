@@ -29,9 +29,22 @@
 		5D873067305E5950001F47A7 /* DemonicAppStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemonicAppStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5D8730F1305E594D001F47B0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			target = 5D87304D305E594D001F47A7 /* DemonicAppStore */;
+			membershipExceptions = (
+				Info.plist,
+			);
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5D873050305E594D001F47A7 /* DemonicAppStore */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5D8730F1305E594D001F47B0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
+			);
 			path = DemonicAppStore;
 			sourceTree = "<group>";
 		};
